@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1707399954499" clover="3.2.0">
+  <project timestamp="1707399954499" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="20" coveredconditionals="18" methods="7" coveredmethods="7" elements="43" coveredelements="41" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+    <file name="main.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\main.js">
+      <metrics statements="16" coveredstatements="16" conditionals="20" coveredconditionals="18" methods="7" coveredmethods="7"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="5" count="13" type="cond" truecount="6" falsecount="0"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="11" count="9" type="stmt"/>
+      <line num="12" count="9" type="stmt"/>
+      <line num="13" count="9" type="stmt"/>
+      <line num="14" count="9" type="stmt"/>
+      <line num="15" count="9" type="stmt"/>
+      <line num="16" count="9" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="52" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

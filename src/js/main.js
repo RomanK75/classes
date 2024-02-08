@@ -3,7 +3,9 @@ const listOfCharacters = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead',
 class Character {
   constructor(name, type, health = 100, level = 1, attack, defence) {
     if (typeof name !== 'string'
-        || listOfCharacters.includes(type) === false) {
+        || listOfCharacters.includes(type) === false
+        || name.length < 2
+        || name.length > 10) {
       throw new Error('Invalid input!');
     } else {
       this.name = name;
@@ -46,3 +48,13 @@ class Daemon extends Character {
     super(name, 'Daemon', health, level, attack, defence);
   }
 }
+
+module.exports = {
+  Character,
+  Bowman,
+  Swordsman,
+  Magician,
+  Undead,
+  Zombie,
+  Daemon,
+};
