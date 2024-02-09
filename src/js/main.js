@@ -1,60 +1,19 @@
-const listOfCharacters = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
-
-class Character {
-  constructor(name, type, health = 100, level = 1, attack, defence) {
+export default class Character {
+  constructor(name, type) {
+    const listOfCharacters = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
     if (typeof name !== 'string'
-        || listOfCharacters.includes(type) === false
         || name.length < 2
         || name.length > 10) {
-      throw new Error('Invalid input!');
+      throw new Error('Name must be a string between 2 and 10 characters long!');
+    } else if (listOfCharacters.includes(type) === false) {
+      throw new Error('Invalid type of character!');
     } else {
       this.name = name;
       this.type = type;
-      this.health = health;
-      this.level = level;
-      this.attack = attack;
-      this.defence = defence;
+      this.health = 100;
+      this.level = 1;
+      this.attack = undefined;
+      this.defence = undefined;
     }
   }
 }
-
-class Bowman extends Character {
-  constructor(name, health, level, attack = 25, defence = 25) {
-    super(name, 'Bowman', health, level, attack, defence);
-  }
-}
-class Swordsman extends Character {
-  constructor(name, health, level, attack = 40, defence = 10) {
-    super(name, 'Swordsman', health, level, attack, defence);
-  }
-}
-class Magician extends Character {
-  constructor(name, health, level, attack = 10, defence = 40) {
-    super(name, 'Magician', health, level, attack, defence);
-  }
-}
-class Undead extends Character {
-  constructor(name, health, level, attack = 25, defence = 25) {
-    super(name, 'Undead', health, level, attack, defence);
-  }
-}
-class Zombie extends Character {
-  constructor(name, health, level, attack = 40, defence = 10) {
-    super(name, 'Zombie', health, level, attack, defence);
-  }
-}
-class Daemon extends Character {
-  constructor(name, health, level, attack = 10, defence = 40) {
-    super(name, 'Daemon', health, level, attack, defence);
-  }
-}
-
-module.exports = {
-  Character,
-  Bowman,
-  Swordsman,
-  Magician,
-  Undead,
-  Zombie,
-  Daemon,
-};

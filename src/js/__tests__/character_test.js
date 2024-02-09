@@ -1,20 +1,20 @@
-const main = require('../main');
+import Character from '../main';
 
 test('Name validation', () => {
-  expect(() => new main.Character('InvalidNameString', 'Bowman', 100, 1, 25, 25)).toThrowError('Invalid input!');
-  expect(() => new main.Character('S', 'Bowman', 100, 1, 25, 25)).toThrowError('Invalid input!');
-  expect(() => new main.Character(1, 'Bowman', 100, 1, 25, 25)).toThrowError('Invalid input!');
-  const validChar = new main.Character('ValidName', 'Bowman', 100, 1, 25, 25);
+  expect(() => new Character('InvalidNameString', 'Bowman')).toThrowError('Name must be a string between 2 and 10 characters long!');
+  expect(() => new Character('S', 'Daemon')).toThrowError('Name must be a string between 2 and 10 characters long!');
+  expect(() => new Character(1, 'Bowman')).toThrowError('Name must be a string between 2 and 10 characters long!');
+  const validChar = new Character('ValidName', 'Bowman');
   expect(validChar).toEqual({
     name: 'ValidName',
     type: 'Bowman',
     health: 100,
     level: 1,
-    attack: 25,
-    defence: 25,
+    attack: undefined,
+    defence: undefined,
   });
 });
 
 test('Type validation', () => {
-  expect(() => new main.Character('ValidName', 'InvalidType', 100, 1, 25, 25)).toThrowError('Invalid input!');
+  expect(() => new Character('ValidName', 'UnknownType')).toThrowError('Invalid type of character!');
 });

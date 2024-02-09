@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1707399954499" clover="3.2.0">
-  <project timestamp="1707399954499" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="20" coveredconditionals="18" methods="7" coveredmethods="7" elements="43" coveredelements="41" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
-    <file name="main.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\main.js">
-      <metrics statements="16" coveredstatements="16" conditionals="20" coveredconditionals="18" methods="7" coveredmethods="7"/>
-      <line num="1" count="2" type="stmt"/>
-      <line num="5" count="13" type="cond" truecount="6" falsecount="0"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="11" count="9" type="stmt"/>
-      <line num="12" count="9" type="stmt"/>
-      <line num="13" count="9" type="stmt"/>
-      <line num="14" count="9" type="stmt"/>
-      <line num="15" count="9" type="stmt"/>
-      <line num="16" count="9" type="stmt"/>
-      <line num="23" count="3" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
-      <line num="52" count="2" type="stmt"/>
-    </file>
+<coverage generated="1707479031667" clover="3.2.0">
+  <project timestamp="1707479031668" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7" elements="49" coveredelements="49" complexity="0" loc="29" ncloc="29" packages="2" files="7" classes="7"/>
+    <package name="js">
+      <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="main.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\main.js">
+        <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="cond" truecount="5" falsecount="0"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="js.class">
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <file name="Bowman.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Bowman.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Daemon.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Daemon.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Magician.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Magician.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Swordsman.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Swordsman.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Undead.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Undead.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Zombie.js" path="C:\Users\Mytth\Desktop\Домашка\JS 2nd module\Задания по 2му модулю\ajs-homeworks-master\ajs-homeworks-master\oop\classes\src\js\class\Zombie.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
